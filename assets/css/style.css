@@ -427,11 +427,6 @@ span {
 
 
 @media screen and (max-width: 350px) {
-    .container {
-        margin-left: var(--mb-1);
-        margin-right: var(--mb-1);
-    }
-    
     .cabecalho {
         padding: 2px;
     }
@@ -455,6 +450,10 @@ span {
         0px;
         color: #FFF;
     }
+
+    .conteudo-principal {
+        margin-left: 6px;
+    }
     
     .conteudo-principal-escrito-titulo {
         font-size: 24px;
@@ -465,14 +464,20 @@ span {
     }
 
     .img {
-        width: 200px;
-        height: 200px;
+        max-height:100px;
+        overflow:hidden;
     }
 
-    .grid {
-        float: right;
-        margin: 0 10px 10px 0;
+    .img-principal {
+        max-height:200px;
+        overflow:hidden;  
     }
+    
+    .button-input {
+        margin-top: 10px;
+    }
+
+
    
 }
 
