@@ -4,45 +4,174 @@
     <meta charset="UTF-8">
     <meta name="description" content="Um bot que irá moderar e deixar a sua comunidade segura de um jeito fácil.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Balle Bot - Modere a sua comunidade do Discord</title>
+    <link rel="icon" href="assets/img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>DentBom</title>
 </head>
 
 <body>
     <header class="cabecalho">
-        <img class="cabecalho-imagem" src="logo.svg">
+        <img class="cabecalho-imagem" src="assets/img/logo.jpg">
         <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item">Comunidade Ballerini</a>
-            <a class="cabecalho-menu-item">Tutorial</a>
-            <a class="cabecalho-menu-item">Open Source</a>
-            <a class="cabecalho-menu-item">Comandos</a>
+            <a href="#inicio" class="cabecalho-menu-item">Início</a>
+            <a href="#sobre" class="cabecalho-menu-item">Sobre</a>
+            <a href="#servicos" class="cabecalho-menu-item">Serviços</a>
+            <a href="#contato" class="cabecalho-menu-item">Contato</a>
         </nav>
     </header>
 
-    <main class="conteudo"> 
+    <main class="conteudo" id="inicio"> 
         <section class="conteudo-principal">
             <div class="conteudo-principal-escrito">
-                <h1 class="conteudo-principal-escrito-titulo">Balle Bot</h1>
-                <h2 class="conteudo-principal-escrito-subtitulo">Deixe a sua comunidade segura de um jeito fácil</h2>
-                <button class="conteudo-principal-escrito-botao">Me Adicione</button>
+                <h1 class="conteudo-principal-escrito-titulo">DentBom</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Cuidando da saúde dos seus dentes.</h2>
+                <div class="home__data">
+                    <a href="https://wa.me/5511911111111" target="_blank" class="button button--flex button--small portfolio__button">
+                        Entre em Contato <i class="uil uil-phone button__icon"></i>
+                    </a>
+                </div>        
 
             </div>
-            <img class="conteudo-principal-imagem" src="ballebot.svg" alt="Imagem da Balle Bot">
+            <div class="grid">
+                <img class="conteudo-principal-imagem img" src="assets/img/img-principal.fw.png" alt="Imagem Principal">
+            </div>
+            
 
         </section>
 
         <section class="conteudo-secundario">
-            <h3 class="conteudo-secundario-titulo">O que ela faz por você ?</h3>
-            <p class="conteudo-secundario-paragrafo">1.Cria um <strong> sistema de verificação capcha</strong> para novos menbros garantindo que não são robôs</p>
-            <p class="conteudo-secundario-paragrafo">2.Possui um <strong> sistema de banimento automático</strong>  para links suspeitos que forem enviados na comunidade</p>
-            <p class="conteudo-secundario-paragrafo">3.<strong> Sistema de avisos e banimento manual</strong> , para pessoas administradoras utilizarem</p>
+            <h3 class="conteudo-secundario-titulo">Quem Somos ?</h3>
+            <p class="conteudo-secundario-paragrafo">Somos uma clínica odontológica completa, com todas as modalidades em um só lugar.<br> Temos à disposição laboratório e raio-x, para que nenhum paciente tenha que se deslocar<br> somente para realizar um exame.</p>
         </section>
-
     </main>
 
+    <div class="conteudo" id="sobre"> 
+        <section class="conteudo-principal">
+            <div class="grid">
+                <img class="conteudo-principal-imagem-sobre img" src="assets/img/sobre.jpg" alt="Imagem Sobre">
+            </div>
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Sobre Nós</h1>
+            </div>
+            
+
+        </section>
+
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">O que Oferecemos ?</h3>
+            <p class="conteudo-secundario-paragrafo">A DentBom é uma clínica com mais de 20 anos de experiência, com muita história e gerações.<br>           
+                Os melhores materiais do mercado odontológico, aliado a profissionais altamente capacitados,<br>    já atraem mais de 100 pacientes por mês. Todos em busca de um atendimento especializado,<br>    personalizado, com qualidade superior e preço baixo.</p>
+        </section>
+    </div>
+
+    <div class="conteudo" id="servicos"> 
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Serviços</h1>
+            </div>
+            <div class="grid">
+                <img class="conteudo-principal-imagem-sobre img" src="assets/img/servicos.jpg" alt="Imagem Serviços">
+            </div>
+
+        </section>
+
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">Nossos Serviços</h3>
+            <p class="conteudo-secundario-paragrafo">
+                <strong>Bichectomia</strong><br> 
+                <strong>Clareamento Dental</strong><br> 
+                <strong>Gengivoplastia</strong><br> 
+                <strong>Implante Dentário</strong><br> 
+                <strong>Lentes de Contato Dental</strong><br> 
+                <strong>Odontopediatria</strong><br> 
+                <strong>Ortodontia</strong><br> 
+                <strong>Profilaxia</strong><br> 
+                <strong>Remoção dos Dentes do Siso
+            </p>
+        </section>
+    </div>
+
+    <div class="conteudo" id="contato"> 
+        <section class="conteudo-principal">
+            <div class="grid">
+                <img class="conteudo-principal-imagem-sobre img" src="assets/img/contato.jpg" alt="Imagem contatos">
+            </div>
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Nossos Contatos </h1>
+            </div>
+
+        </section>
+
+        <section class="contact section">
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-mobile-android contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Telefone</h3>
+                            <span>(11) 91111-1111</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope-upload contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span>dentbom@hotmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-location-pin-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Local</h3>
+                            <span>Guarulhos-SP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form method="POST" action="https://formspree.io/f/mvoddkrd" target="_blank" action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="name" class="contact__label">Nome</label>
+                            <input type="text" name="nome" id="name" class="contact__input input" required>
+                        </div>
+                        <div class="contact__content">
+                            <label for="email" class="contact__label">Email</label>
+                            <input type="text" name="Email" id="email" class="contact__input input" required>
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="message" class="contact__label">Mensagem</label>
+                        <textarea name="mensagem" id="message" cols="0" rows="7" class="contact__input" required></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar Mensagem   &#xf1d8;" class="primary button-input"/>
+                        <input class="button button-input" type="reset" value="Limpar &#xf12d;"/>
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+    </div>
+
     <footer class="rodape">
-        <img class="rodape-imagem" src="ballerini.svg">
+        <img class="rodape-imagem" src="assets/img/logo-rodape.jpg">
+        <p class="rodape-copy">&#169; DentBom, Direitos Reservados.</p>
     </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-double-up scrollup__icon"></i>
+    </a>
+
+    <script src="./assets/js/main.js"></script>
 
 </body>
 
